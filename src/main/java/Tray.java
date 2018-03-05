@@ -21,7 +21,10 @@ public class Tray {
     }
 
     public void addItem(Product product) {   //intellij said Drink drink change it to Product product
-        stock.add(product);
+
+        if(getStockLevel() < capacity) {
+            stock.add(product);
+        }
     }
 
     public Product ejectProduct() {

@@ -58,4 +58,13 @@ public class TestTray {
     //check that we can't add items beyond a tray's capacity
 
 
+    @Test
+    public void testTrayCapacityCannotBeBreached() {
+        for(int i = 0; i < 11; i++){
+            Drink drink = new Drink("Irn Bru", 333);
+            tray.addItem(drink);
+        }
+
+        assertEquals(10, tray.getStockLevel());
+    }
 }
