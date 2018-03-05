@@ -36,4 +36,36 @@ public class VendingMachine {
         //return that amount back out of the function
         return refundAmount;
     }
+
+
+    public int getStockLevelForTray(Selection selection) {
+        return products.get(selection).getStockLevel();
+    }
+
+    public Product vend(Selection selection) {
+        Tray tray = products.get(selection);
+        Product product = null;
+
+        //check credit >= price row
+        if(credit >= tray.getPrice()){
+            //check row has product in stock
+            if(tray.getStockLevel() > 0){
+                //get product from tray
+                product = tray.ejectProduct();
+
+                //cash goes up
+                cash += tray.getPrice();
+
+                //credit goes down
+                credit -= tray.getPrice();
+
+
+            }
+
+        }
+
+        //return product
+        return product;
+    }
 }
+

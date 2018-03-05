@@ -110,10 +110,12 @@
       <file leaf-file-name="TestVendingMachine.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestVendingMachine.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="42" column="45" lean-forward="false" selection-start-line="42" selection-start-column="45" selection-end-line="42" selection-end-column="45" />
+            <state relative-caret-position="164">
+              <caret line="78" column="61" lean-forward="true" selection-start-line="78" selection-start-column="61" selection-end-line="78" selection-end-column="61" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1365#1366#0" expanded="true" />
+                <element signature="e#1447#1448#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -122,8 +124,8 @@
       <file leaf-file-name="VendingMachine.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/VendingMachine.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+            <state relative-caret-position="281">
+              <caret line="60" column="0" lean-forward="true" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
               <folding>
                 <element signature="e#345#346#0" expanded="true" />
                 <element signature="e#374#375#0" expanded="true" />
@@ -131,6 +133,8 @@
                 <element signature="e#432#433#0" expanded="true" />
                 <element signature="e#481#482#0" expanded="true" />
                 <element signature="e#520#521#0" expanded="true" />
+                <element signature="e#857#858#0" expanded="true" />
+                <element signature="e#919#920#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -702,15 +706,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_VendingMachineKata_test - 2018.03.05 at 12h 16m 28s.xml">
-      <configuration name="All in VendingMachineKata_test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_VendingMachineKata_test - 2018.03.05 at 12h 20m 46s.xml">
-      <configuration name="All in VendingMachineKata_test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_VendingMachineKata_test - 2018.03.05 at 13h 34m 14s.xml">
-      <configuration name="All in VendingMachineKata_test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="All_in_VendingMachineKata_test - 2018.03.05 at 13h 36m 46s.xml">
       <configuration name="All in VendingMachineKata_test" configurationId="JUnit" />
     </history-entry>
@@ -732,6 +727,15 @@
     <history-entry file="All_in_VendingMachineKata_test - 2018.03.05 at 14h 36m 17s.xml">
       <configuration name="All in VendingMachineKata_test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="All_in_VendingMachineKata_test - 2018.03.05 at 14h 44m 40s.xml">
+      <configuration name="All in VendingMachineKata_test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_VendingMachineKata_test - 2018.03.05 at 15h 11m 00s.xml">
+      <configuration name="All in VendingMachineKata_test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_VendingMachineKata_test - 2018.03.05 at 15h 13m 07s.xml">
+      <configuration name="All in VendingMachineKata_test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -745,9 +749,9 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3397524" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3397524" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2584814" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -906,18 +910,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TestVendingMachine.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="42" column="45" lean-forward="false" selection-start-line="42" selection-start-column="45" selection-end-line="42" selection-end-column="45" />
+        <state relative-caret-position="164">
+          <caret line="78" column="61" lean-forward="true" selection-start-line="78" selection-start-column="61" selection-end-line="78" selection-end-column="61" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1365#1366#0" expanded="true" />
+            <element signature="e#1447#1448#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/VendingMachine.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+        <state relative-caret-position="281">
+          <caret line="60" column="0" lean-forward="true" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
           <folding>
             <element signature="e#345#346#0" expanded="true" />
             <element signature="e#374#375#0" expanded="true" />
@@ -925,6 +931,8 @@
             <element signature="e#432#433#0" expanded="true" />
             <element signature="e#481#482#0" expanded="true" />
             <element signature="e#520#521#0" expanded="true" />
+            <element signature="e#857#858#0" expanded="true" />
+            <element signature="e#919#920#0" expanded="true" />
           </folding>
         </state>
       </provider>
