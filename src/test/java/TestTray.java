@@ -61,7 +61,7 @@ public class TestTray {
     @Test
     public void testTrayCapacityCannotBeBreached() {
         for(int i = 0; i < 11; i++){
-            Drink drink = new Drink("Irn Bru", 333);
+            Drink drink = new Drink("Irn Bru", 330);
             tray.addItem(drink);
         }
 
