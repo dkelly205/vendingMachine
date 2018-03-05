@@ -83,6 +83,18 @@ public class TestVendingMachine {
 
     }
 
+    @Test
+    public void testCustomerRetainsCreditWhenOutOfStock(){
+        vendingMachine.addMoney(10.00);
+        for(int i =0; i< 10; i++){
+
+            vendingMachine.vend(Selection.A1);
+        }
+
+        assertEquals(7.50, vendingMachine.getCredit(), 0.01);
+
+    }
+
 
 
 
