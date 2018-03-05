@@ -39,6 +39,22 @@ public class TestTray {
 
     //check we can remove item from tray
 
+    @Test
+    public void testTrayEjectsItem() {
+        Drink drink1 = new Drink("Ice Tea", 500);
+        Drink drink2 = new Drink("Ice Tea", 500);
+        tray.addItem(drink1);
+        tray.addItem(drink2);
+
+//        Drink ejectedDrink = (Drink) tray.ejectProduct();   //(Drink) that is called casting, converting a Product to Drink
+//       or we could do this
+
+        Product ejectedProduct = tray.ejectProduct();
+
+        assertEquals(drink1, ejectedProduct);
+    }
+
+
     //check that we can't add items beyond a tray's capacity
 
 

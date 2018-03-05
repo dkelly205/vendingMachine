@@ -23,5 +23,9 @@ public class Tray {
     public void addItem(Product product) {   //intellij said Drink drink change it to Product product
         stock.add(product);
     }
+
+    public Product ejectProduct() {
+        return this.stock.remove(0);
+    }
 }
 
