@@ -9,7 +9,7 @@ public class TestSweet {
 
     @Before
     public void setUp() throws Exception {
-        sweet = new Sweet("Refereshers", 50);
+        sweet = new Sweet("Refreshers", 50);
     }
 
     @Test
@@ -17,4 +17,4 @@ public class TestSweet {
         assertEquals("Refreshers", sweet.getName());
     }
 }
-}
+

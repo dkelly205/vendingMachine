@@ -11,4 +11,8 @@ public class Customer {
         this.cash = cash;
         this.inventory = new ArrayList<Product>();
     }
+
+    public String getName() {
+        return name;
+    }
 }
