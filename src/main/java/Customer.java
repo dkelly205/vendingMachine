@@ -15,4 +15,12 @@ public class Customer {
     public String getName() {
         return name;
     }
+
+    public double getCash() {
+        return cash;
+    }
+
+    public int getInventorySize() {
+        return inventory.size();
+    }
 }
