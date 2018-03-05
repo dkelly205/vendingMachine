@@ -14,14 +14,19 @@ public class TestTray {
         tray = new Tray(0.50, 10);
     }
 
+
+    //check trays have a price
     @Test
     public void testTrayPrice() {
         assertEquals(0.50, tray.getPrice(), 0.01);
     }
 
-    //check trays have a price
-
     //check trays report the number of items they contain
+
+    @Test
+    public void testStockLevelInitiallyZero(){
+        assertEquals(0, tray.getStockLevel());
+    }
 
     // check we can add item to tray
 
