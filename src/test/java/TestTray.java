@@ -30,6 +30,13 @@ public class TestTray {
 
     // check we can add item to tray
 
+    @Test
+    public void testCanAddItem(){
+        Drink drink = new Drink("Ice Tea", 500);
+        tray.addItem(drink);
+        assertEquals(1, tray.getStockLevel());
+    }
+
     //check we can remove item from tray
 
     //check that we can't add items beyond a tray's capacity

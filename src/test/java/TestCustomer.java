@@ -26,4 +26,6 @@ public class TestCustomer {
     public void testCustomerInventoryIsInitiallyEmpty(){
         assertEquals(0, customer.getInventorySize());
     }
+
+
 }

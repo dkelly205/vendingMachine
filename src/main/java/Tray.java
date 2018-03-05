@@ -19,5 +19,9 @@ public class Tray {
     public int getStockLevel() {
         return stock.size();
     }
+
+    public void addItem(Product product) {   //intellij said Drink drink change it to Product product
+        stock.add(product);
+    }
 }
 
